@@ -2,6 +2,7 @@
 
 <h2>Need to install:</h2>
 <ol>
+  <li>Alacritty</li>
   <li>Tmux plugin manager</li>
   <li>Meslo fonts</li>
   <li>oh my zsh</li>
