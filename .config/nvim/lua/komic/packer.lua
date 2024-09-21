@@ -22,7 +22,7 @@ return require("packer").startup(function(use)
     end,
   })
 
-  use("nvimtools/none-ls.nvim")
+  use({ "nvimtools/none-ls.nvim", requires = { { "nvimtools/none-ls-extras.nvim" } } })
   use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
   use("nvim-treesitter/playground")
   use("ThePrimeagen/harpoon")
