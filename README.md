@@ -1,5 +1,7 @@
-Need to install:
-1.Tmux plugin manager
-2.Meslo fonts
-3.oh my zsh
-4.node version manager
+<h2>Need to install:</h2>
+<ol>
+  <li>Tmux plugin manager</li>
+  <li>Meslo fonts</li>
+  <li>oh my zsh</li>
+  <li>node version manager</li>
+</ol>
