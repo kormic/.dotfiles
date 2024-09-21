@@ -1,3 +1,5 @@
+<h2>Use gnu stow</h2>
+
 <h2>Need to install:</h2>
 <ol>
   <li>Tmux plugin manager</li>
