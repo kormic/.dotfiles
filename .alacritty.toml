@@ -1,6 +1,6 @@
 [font]
-normal = { family = "MesloLGS NF", style = "Regular" }
-size = 18
+normal = { family = "MesloLGL NerdFont", style = "Regular" }
+size = 12
 [window]
 opacity=0.8
 blur=true
