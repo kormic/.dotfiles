@@ -1,5 +1,6 @@
 require("komic.options")
 require("komic.remap")
+require("komic.packer")
 
 vim.diagnostic.config({
   virtual_text = {
