@@ -119,7 +119,9 @@ bindkey -v
 bindkey -v '^?' backward-delete-char
 
 # Set PATH, MANPATH, etc., for Homebrew.
-eval "$(/usr/local/bin/brew shellenv)"
+if [[ $(uname) == "Darwin" ]]; then
+  eval "$(/usr/local/bin/brew shellenv)"
+fi
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
