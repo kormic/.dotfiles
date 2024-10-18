@@ -11,6 +11,8 @@ blur = true
 bindings = [
   { key="C", mods="Control|Shift", action="Copy" },
   { key="V", mods="Control|Shift", action="Paste" },
+  { key="N", mods="Control", action="SpawnNewInstance" },
+  { key="T", mods="Control|Shift", command={ program = "zsh", args = [ "-c", "~/scripts/toggle-opacity.sh" ] } },
 ]
 
 [mouse]
