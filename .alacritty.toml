@@ -4,7 +4,7 @@ size = 12
 
 [window]
 dimensions = { columns = 140, lines = 30 }
-opacity = 0.9
+opacity = 1.0
 blur = true
 
 [keyboard]
